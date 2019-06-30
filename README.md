@@ -1,5 +1,5 @@
 # StockItUp
-StockItUp is a web-based stock portfolio app written using Ruby on Rails for the NYC TTP fullstack assessment. It lets a user create a unique account based on email address, 'buy' stocks within a $5000 USD starting budget, and see a list of the stocks owned and transactions / trades completed.
+StockItUp is a web-based stock portfolio app written using Ruby on Rails for the NYC TTP fullstack assessment. It lets a user create a unique account based on email address, 'buy' stocks within a $5000 USD starting budget, and see a list of stocks owned and transactions / trades completed.
 
 ![The StockItUp Portfolio page](https://i.imgur.com/u5b6T07.png)
 
@@ -8,10 +8,9 @@ StockItUp was built on Ruby 2.6.3 and uses Bundler to install gem dependencies. 
 
 #### Installation
 1. First, clone or download this repo.
-2. `cd` into the `stock-app` directory and run `bundle install` to install all the required gems.
+2. `cd` into the `stock-app` directory in `TTP-FS` and run `bundle install` to install all the required gems.
 3. Enter `rake db:migrate` to run the database migrations.
-4. Enter `rake db:seed` to install a little sample data.
-5. Start the rails server by typing `rails server` or `rails s`.
+4. Start the rails server by typing `rails server` or `rails s`.
 
 #### Using the app
 1. Create an account with name, email, and password.
